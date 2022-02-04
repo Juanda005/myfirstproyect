@@ -1,1 +1,4 @@
-comando: git init
+entrar a la carpeta padre
+dentro de la carpeta que contiene el proyecto hacer los sits comnados 
+comando: git init solamente cuando es un  nuevo poryecto
+comando git add README.md

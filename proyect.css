@@ -1,27 +1,53 @@
 body{
     background-color: rgb(216, 118, 216);
 }
-h1{
+p{
     color: white;
     text-align: left;
+}
+.descripcion{
+    color: grey;
+    font-size: 35px;
+}
+h2{
+    font-size: 90px;
 }
 div{
     display: flex;
     justify-content: space-around;
 }
 .nav-bar{
-    background-color: red;
     display: flex;
 }
 a{
     font-size: 20px;
     font-family: 'Ubuntu', sans-serif;
-    padding: 12px ;
+    padding: 20px ;
     margin-top:1rem ;
     text-decoration: none;
     color: white;
 }
-a:hover{
-    background-color: rgb(230, 95, 79);
+.botones{
+    display: inline-block;
+    text-align: center;
+    width: 45%;
+}
+.informacion{
+    text-align: end;
+}
+img{
+    width: 25%;
+    height: 30%;
+}
+.rojo{
+    background-color: rgb(235, 68, 68);
+    padding: 70px 30px;
+}
+.azul{
+    background-color: rgb(0, 186, 233);
+    padding: 70px 30px;
+}
+.hover:hover{
+    background-color: rgb(226, 29, 72);
     border-radius: 5px;
 }
