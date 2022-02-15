@@ -1,5 +1,11 @@
-body{
-    background-color: rgb(216, 118, 216);
+body {
+    background-image: url(https://fondosmil.com/fondo/22272.jpg);
+    background-position: 100%;
+}
+img{
+    width: 100%;
+    height: 17%;
+    margin: 40px;
 }
 p{
     color: white;
@@ -8,9 +14,14 @@ p{
 .descripcion{
     color: grey;
     font-size: 35px;
+    margin-left: 250px;
 }
 h2{
-    font-size: 90px;
+    font-size: 80px;
+    color: white;
+    padding-bottom: 150px;
+    margin-left: 250px;
+    margin-right: 50px;
 }
 div{
     display: flex;
@@ -18,34 +29,211 @@ div{
 }
 .nav-bar{
     display: flex;
+    padding-bottom: 200px;
+}
+.cajadeenlaces{
+    display: block;
+}
+.enlacedeboton{
+    display: block;
+    color: white;
+    padding-left: 0;
+    font-size: 25px;
+}
+.descripciondecaja{
+    padding-left: 0;
+    margin-bottom: 30px;
+    margin-right: 60px;
+}
+.imagendecaja{
+    height: 60%;
+    padding-top: 20px;
+    margin-left: 60px;
+}
+.colordediv{
+    background-color: rgb(255, 75, 75);
+}
+.colordedivdos{
+    background-color: rgba(0, 255, 255, 0.753);
 }
 a{
     font-size: 20px;
     font-family: 'Ubuntu', sans-serif;
     padding: 20px ;
-    margin-top:1rem ;
+    margin-top: 40px ;
     text-decoration: none;
     color: white;
 }
-.botones{
-    display: inline-block;
+.results{
+    color: white;
+    justify-content: start;
+    font-size: 60px;
+    display: block;
+    margin-bottom: 50px;
+}
+h3{
+    margin-left: 100px;
+    margin-top: 200px;
+    margin-bottom: 15px ;
+}
+.hrderesults{
+    margin-left: 100px ;
+    margin-right: 1560px ;
+}
+.seccion{
+    font-size: 30px;
+    text-align: left;
+    width: 70% ;
+    margin-left: 100px;
+}
+section{
+    display: flex;
+    margin-bottom: 200px;
+}
+.columnas{background-color: rgb(19, 18, 18);
+    display: block;
+    width: 33%;
+    text-align: left;
+    margin: 0px 50px;
+    margin-top: 150px;
+    padding: 2px;
+    border: 4px solid rgb(53, 42, 42);
+    border-radius: 3px;
+}
+.text-columna{
+    display: flex;
+    text-align: left;
+    font-size: 40px;
+    padding-bottom: 0px;
+}
+.parrafo-columna{
+    display: inline-flex;
+    margin-top: 0px;
+    margin-bottom: -1000px;
+    text-align: left;
+    font-size: 30px;
+
+}
+.img-columna{
+    justify-content: left;
+    margin-right: 50px ;
+    width: 100%;
+    height: 10px;
+}
+.ante-penultima{
+    margin-top: 100px;
+}
+.hijo-antepenultima{
+    color: aliceblue;
+    display: block;
+    width: 50%;
+    height: 100%;
+    margin: 10px 30px;
+}
+.title-antepenultima{
+    text-align: start;
+    font-size: 40px;
+    margin-top: 0;
+    margin-left: 110px;
+}
+.hr-antepenultima{
+    margin-left: 110px;
+    margin-right: 580px;
+}
+.parrafo-antepenultima{
+    font-size: 25px;
+    margin-left: 110px;
+}
+.hija-antepenultima{
+    display: block;
+    color: aliceblue;
+    width: 50%;
+}
+.comentario{
+    margin-left: 30px;
+    margin-right: 140px;
+    font-size: 20px;
+    margin-top: 40px;
+    padding: 20px;
+    background-color: rgb(43, 42, 42);
+    border: 3px solid rgb(0, 0, 0);
+    border-radius: 3px;
+}
+.padre-antepenultima{
+    background-color: aqua;
+}
+.padredecomentario{
+    display: block;
+}
+.img-antepenultima{
+    width: 30%;
+    padding-bottom: 0;
+    background-color: aliceblue;
+}
+.penultima{
+    background-color: rgba(255, 25, 0, 0.836);
+    display: flex;
+    margin-top: 150px;
+    margin-bottom: 100px;
+    padding: 60px 30px;
+}
+.parrafo-penultima{
     text-align: center;
-    width: 45%;
+    margin: 0px 10px;
+    font-size: 40px;
 }
-.informacion{
-    text-align: end;
+.enlace-penultima{
+    margin-top: 0;
+    box-shadow: 10px 10px 15px black;
+    border-radius: 4px;
 }
-img{
-    width: 25%;
-    height: 30%;
+.rojo-penultima{
+    background-color: white;
+    color:rgba(255, 25, 0, 0.918);
 }
-.rojo{
-    background-color: rgb(235, 68, 68);
-    padding: 70px 30px;
+.or{
+    margin: 0px 30px;
+    margin-top: 10px;
+    font-size: 30px;
+    text-align: center;
 }
-.azul{
-    background-color: rgb(0, 186, 233);
-    padding: 70px 30px;
+.columna-final{
+    display: block;
+    width: 33%;
+    margin-left: 50px;
+}
+.fecha{
+    margin-left: 3px;
+}
+.enlace-final{
+    text-align: left;
+    font-size: 20px;
+    padding-left: 0;
+}
+.colocaciondecolumna{
+    margin-left: 110px;
+}
+.colocaciondecolumnatres{
+    margin-right: 110px;
+}
+.mediafecha{
+    margin-top: 65px;
+    font-size: 20px;
+}
+.telefono{
+    margin-top: 65px;
+    font-size: 20px;
+}
+
+/* HOVER */
+.enlace-final:hover{
+    text-decoration-line: underline;
+}
+.terms:hover{
+    text-decoration-line: underline;
+}
+.or:hover{
+    box-shadow: 25px 25px 25px black;
 }
 .hover:hover{
     background-color: rgb(226, 29, 72);
